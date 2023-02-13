@@ -1,0 +1,20 @@
+{
+  "name": "newproyect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielHenao1/PreEntrega3-Henao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielHenao1/PreEntrega3-Henao/issues"
+  },
+  "homepage": "https://github.com/DanielHenao1/PreEntrega3-Henao#readme"
+}
