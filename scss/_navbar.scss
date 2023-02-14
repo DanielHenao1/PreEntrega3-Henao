@@ -3,17 +3,17 @@ body {
 }
 
 .bg-header {
-  background-color: rgb(20, 25, 45);
+  background-color: $second-color;
 }
 
 .dropdown-item {
-  color: rgba(217, 0, 98, 0.75);
+  color: $first-alpha-color;
   font-weight: bold;
   transition: all 0.3s ease-out;
 }
 
 .dropdown-item:hover {
-  color: rgba(80, 20, 100, 0.75);
+  color: $third-alpha-color;
 }
 
 .navbar-brand img {
@@ -36,31 +36,16 @@ body {
 }
 
 .nav-item:hover {
-  background-color: rgba(217, 0, 98, 0.75);
+  background-color: $first-alpha-color;
 }
 
 .nav-link {
   margin-left: 0.5rem;
-  color: rgb(217, 0, 98);
+  color: $first-color;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
 .nav-link:hover {
-  color: rgb(245, 245, 245);
+  color: $gb-color;
 }
-
-/* Small devices (landscape phones, 576px and up) */
-/* Medium devices (tablets, 768px and up) */
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .nav-item:hover {
-    background-color: transparent;
-  }
-}
-/* X-Large devices (large desktops, 1200px and up) */
-/* XX-Large devices (larger desktops, 1400px and up) */
-/* ================ Bootstrap Styles ================= */
-/* ================ My Styles ================= */
-
-/*# sourceMappingURL=styles.css.map */
