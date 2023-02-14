@@ -46,6 +46,7 @@ a:hover {
 
 .nav-item:hover {
   background-color: rgba(217, 0, 98, 0.75);
+  background-color: transparent;
 }
 
 .nav-link {
