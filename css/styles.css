@@ -2,6 +2,15 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+a {
+  color: rgb(80, 158, 227);
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: rgb(217, 0, 98);
+}
+
 .bg-header {
   background-color: rgb(20, 25, 45);
 }

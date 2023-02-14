@@ -1,0 +1,12 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  color: $link-color;
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: $first-color;
+}
