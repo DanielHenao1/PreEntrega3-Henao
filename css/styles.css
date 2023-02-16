@@ -109,4 +109,8 @@ a:hover {
   background-color: rgba(245, 245, 245, 0.75);
 }
 
+.bg-second-alpha-color {
+  background-color: rgba(20, 25, 45, 0.75);
+}
+
 /*# sourceMappingURL=styles.css.map */
