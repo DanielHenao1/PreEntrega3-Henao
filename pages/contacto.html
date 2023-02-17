@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Steco</title>
+    <title>Interesado | Studio DH</title>
     <!-- CDN DE BOOTSTRAP -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -100,8 +100,146 @@
         </div>
       </div>
     </nav>
-    <main class="pt-5">
-      <h1>Seccion Contacto</h1>
+    <main class="pt-5 bg-color">
+      <div class="container mb-5">
+        <section class="row">
+          <article class="col-12 text-center">
+            <h1>¿En que estas Interesad@?</h1>
+            <p class="fs-5">Enviame tus Comentarios...</p>
+            <p class="fs-5">
+              Para mas informacion, puedes contactarme en
+              <a href="mailito:info@studiodh.com.co">info@studiodh.com.co</a>
+            </p>
+          </article>
+          <article class="col-12 col-lg-6 order-lg-1">
+            <form action="">
+              <div class="mb-3">
+                <label class="form-label" for="name">Nombre:</label>
+                <input
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Tu nombre"
+                  type="text"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="email">Email:</label>
+                <input
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Tu correo"
+                  type="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="comments">Comentarios:</label>
+                <div class="form-floating">
+                  <textarea
+                    class="form-control"
+                    placeholder=""
+                    id="floatingTextarea2"
+                    style="height: 100px"
+                    required
+                  ></textarea>
+                  <label for="floatingTextarea2">Dejanos tus Comentarios</label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <input class="btn btn-sm btn-success" type="submit" />
+              </div>
+            </form>
+          </article>
+          <article class="col-12 col-lg-6">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.3119225434716!2d-74.06605858469264!3d4.715778842838409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f85300d26b777%3A0x82be6a165939da24!2sDH%20TECNOLOG%C3%8DA!5e0!3m2!1ses!2sco!4v1676598604521!5m2!1ses!2sco"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </article>
+        </section>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-caption bg-second-alpha-color">
+            <article>
+              <aside>
+                <p class="fs-4"><b>Andres Henao</b>,</p>
+                <p class="fs-5 d-none d-sm-block">Ingeniero de Sofware</p>
+              </aside>
+              <aside class="d-none d-md-block">
+                <p>
+                  Expertos en maquetacion y diseño web
+                  <b><i>Calidad a tu alcance</i></b>
+                </p>
+                <p>
+                  Valoramos los sueños de nuestros clientes
+                  <em>"<b>hecho con amor</b>"</em>.
+                </p>
+                <p>
+                  Trabajamos para <b><i>Independientes</i></b> y
+                  <b><i>Empresas</i></b>
+                </p>
+              </aside>
+            </article>
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="../img/about-1.jpg"
+              class="d-block w-100"
+              alt="Acerca 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/about-2.jpg"
+              class="d-block w-100"
+              alt="Acerca 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/about-3.jpg"
+              class="d-block w-100"
+              alt="Acerca 3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/about-4.jpg"
+              class="d-block w-100"
+              alt="Acerca 3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
     <!-- START FOOTER -->
     <footer class="bg-dark p-3">
@@ -125,7 +263,7 @@
             ><i class="bi bi-whatsapp fs-3"></i
           ></a>
         </nav>
-        <small class="text-white">&copy; 2023 Diseñado por Daniel Henao </small>
+        <small class="text-white">&copy; 2023 Diseñado por Andres Henao </small>
       </div>
     </footer>
     <!-- CDN DE BOOTSTRAP JS -->
